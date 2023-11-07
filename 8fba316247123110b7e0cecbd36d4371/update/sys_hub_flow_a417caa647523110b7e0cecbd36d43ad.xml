@@ -32,7 +32,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a417caa647523110b7e0cecbd36d43ad</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Servicenowstore</sys_name>
         <sys_overrides/>
         <sys_package display_value="Servicwnow Store" source="x_845622_servicwno">8fba316247123110b7e0cecbd36d4371</sys_package>
@@ -40,7 +40,7 @@
         <sys_scope display_value="Servicwnow Store">8fba316247123110b7e0cecbd36d4371</sys_scope>
         <sys_update_name>sys_hub_flow_a417caa647523110b7e0cecbd36d43ad</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-07 08:54:41</sys_updated_on>
+        <sys_updated_on>2023-11-07 10:29:28</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=a417caa647523110b7e0cecbd36d43ad"/>
@@ -55,10 +55,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-11-07 08:54:40</sys_created_on>
         <sys_id>3087466a47523110b7e0cecbd36d438d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-07 08:54:41</sys_updated_on>
+        <sys_updated_on>2023-11-07 10:29:28</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -227,14 +227,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-11-07 08:54:40</sys_created_on>
         <sys_id>fc87466a47523110b7e0cecbd36d4379</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Servicwnow Store">8fba316247123110b7e0cecbd36d4371</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-07 08:54:40</sys_updated_on>
+        <sys_updated_on>2023-11-07 10:29:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -250,7 +250,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fc87466a47523110b7e0cecbd36d4379"/>
     <sys_hub_flow_output action="delete_multiple" query="model=a417caa647523110b7e0cecbd36d43ad"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=a417caa647523110b7e0cecbd36d43ad"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=a417caa647523110b7e0cecbd36d43ad^sys_idNOT IN3487466a47523110b7e0cecbd36d4393"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a417caa647523110b7e0cecbd36d43ad^sys_idNOT IN3487466a47523110b7e0cecbd36d4393,593d9e6247d23110b7e0cecbd36d4383"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
@@ -266,16 +266,41 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-11-07 08:54:41</sys_created_on>
         <sys_id>3487466a47523110b7e0cecbd36d4393</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Servicwnow Store">8fba316247123110b7e0cecbd36d4371</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-07 08:54:41</sys_updated_on>
+        <sys_updated_on>2023-11-07 10:29:28</sys_updated_on>
         <ui_id>d76794e7-111f-4be2-9965-f4d7918fdb98</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3487466a47523110b7e0cecbd36d4393"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=3487466a47523110b7e0cecbd36d4393"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=3487466a47523110b7e0cecbd36d4393"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=3487466a47523110b7e0cecbd36d4393"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Servicenowstore">a417caa647523110b7e0cecbd36d43ad</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-07 10:29:28</sys_created_on>
+        <sys_id>593d9e6247d23110b7e0cecbd36d4383</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Servicwnow Store">8fba316247123110b7e0cecbd36d4371</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-07 10:29:28</sys_updated_on>
+        <ui_id>0276ef69-608b-48d5-8067-b04a24569dad</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=593d9e6247d23110b7e0cecbd36d4383"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb^id=593d9e6247d23110b7e0cecbd36d4383"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=593d9e6247d23110b7e0cecbd36d4383"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=593d9e6247d23110b7e0cecbd36d4383"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a417caa647523110b7e0cecbd36d43ad"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=a417caa647523110b7e0cecbd36d43ad"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=a417caa647523110b7e0cecbd36d43ad"/>
